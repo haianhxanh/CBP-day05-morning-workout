@@ -1,0 +1,72 @@
+body, html {
+    font-family: 'Darker Grotesque', sans-serif;
+    margin: 0;
+    background-color: whitesmoke;
+    box-sizing: border-box;
+}
+
+.content {
+    padding: 5% 15%;
+    height: 50%;
+    
+}
+
+nav {
+    text-align: center;
+}
+nav a {
+    text-decoration: none;
+    color: lightslategrey;
+    padding: 1em;
+    font-size: 1.1em;
+}
+h1 {
+    color: lightseagreen;
+    text-align: center;
+}
+.content.container {
+    border-left: lightseagreen 2px solid;
+    overflow: hidden;
+}
+
+img {
+    width: 40%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin-right: 5%;
+    object-fit: contain;
+    float: left;
+    
+}
+
+/* p::after {
+    content: "";
+    clear: both;
+} */
+
+p {
+    text-align: justify;
+    margin-left: 5%;
+}
+
+.button {
+    text-align: center;
+    margin: 5% auto;
+}
+
+.button a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 1.2em;
+}
+
+button {
+    background-color: gainsboro;
+    border: 2px solid lightseagreen;
+    border-radius: 10px 10px 10px 10px;
+    padding: 1%;
+
+}
+
